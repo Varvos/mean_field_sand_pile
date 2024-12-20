@@ -2,7 +2,6 @@
 Base Sandpile config
 """
 
-
 class SandpileConfig:
     def __init__(self, grid_size: int, threshold: int, toppling_rule: str, initial_chips: int):
         self.grid_size = grid_size
